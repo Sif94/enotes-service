@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/enotes_db
+    username: sif
+    password: password
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
